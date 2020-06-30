@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AthletePlanPurchaseSummaryActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Iv_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/back_btn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/payment_gateway_text"
+                android:textColor="@color/colorText"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:text="Payment gateway" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f6f6f6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Credit Card/Debit Card"
+                    android:textColor="#4a4a4a"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Select Your Method"
+                    android:textColor="#4a4a4a"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pay1" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="11dp"
+                android:background="#f6f6f6"
+                android:paddingLeft="20dp"
+                android:paddingTop="9dp"
+                android:paddingEnd="30dp"
+                android:text="If you have a Voucher please enter the code here and apply"
+                android:textColor="#4a4a4a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="17dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#4a4a4a"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                tools:text="Voucher" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp">
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="10dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/button_border_rectagle">
+
+                </EditText>
+
+                <Button
+                    android:id="@+id/BtnApplyVoucher"
+                    android:layout_width="72dp"
+                    android:layout_height="32dp"
+                    android:layout_alignEnd="@+id/editText1"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="sans-serif"
+                    android:text="Apply"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+
+                <Button
+                    android:id="@+id/BtnConfirmPlan1"
+                    android:layout_width="72dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="sans-serif"
+                    android:text="Confirm"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/et_voucher"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:text="mita"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_border"/>
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/BtnPayNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/editText1"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/button_bg"
+                android:fontFamily="sans-serif"
+                android:text="Pay Now"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+            <Button
+                android:id="@+id/BtnPayDesable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/editText1"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/button_disable_bg"
+                android:fontFamily="sans-serif"
+                android:text="Pay Now"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

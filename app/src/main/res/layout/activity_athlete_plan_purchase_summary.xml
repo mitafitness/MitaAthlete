@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AthletePlanPurchaseSummaryActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Iv_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/back_btn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/summary_plan"
+                android:textColor="@color/colorText"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:letterSpacing="0.02"
+                    android:text="@string/plan_text"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tv_click_change"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="39dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="end"
+                    android:letterSpacing="0.02"
+                    android:text="@string/change_plan"
+                    android:textColor="#552684"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_plan_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorText"
+                android:textSize="14sp"
+                tools:text="5K Beginner" />
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/colorText"
+                android:textSize="9sp"
+                android:textStyle="normal"
+                tools:text="This beginner 5K Training Plan helps you to achieve your first 5K Run at the end of 6 weeks." />
+
+            <TextView
+                android:id="@+id/tv_specialize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/colorText"
+                android:textSize="9sp"
+                android:textStyle="normal"
+                tools:text="Training days will be Tue, Thu and Sat days of the week." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="#000"
+                android:backgroundTint="@color/colorViewline" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.02"
+                android:textColor="@color/colorText"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                tools:text="Coach" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_profile"
+                    android:layout_width="66dp"
+                    android:layout_height="55dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/profile_image_coach" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="11dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="#4a4a4a"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        tools:text="Damien Lewis" />
+
+                    <TextView
+                        android:id="@+id/tv_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:textColor="#4a4a4a"
+                        android:textSize="11sp"
+                        android:textStyle="normal"
+                        tools:text="damienlewis@gmail.com" />
+
+                    <TextView
+                        android:id="@+id/tv_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#4a4a4a"
+                        android:textSize="11sp"
+                        android:textStyle="normal"
+                        tools:text="Basavangudi" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="#000"
+                    android:backgroundTint="@color/colorViewline" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="#000"
+                android:backgroundTint="@color/colorViewline" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.02"
+                android:textColor="#4c4c4c"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                tools:text="Price" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rupee"
+                    android:textColor="@color/coloBlack"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp"
+                    tools:text="1500" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/BtnConfirmPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/button_bg"
+                android:fontFamily="sans-serif"
+                android:text="Confirm"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

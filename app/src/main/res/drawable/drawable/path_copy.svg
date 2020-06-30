@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="19" viewBox="0 0 17 19">
+    <defs>
+        <radialGradient id="prefix__c" cx="50%" cy="11.719%" r="26.311%" fx="50%" fy="11.719%" gradientTransform="matrix(0 .9375 -1.07753 0 .626 -.352)">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".746"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__d" cx="50%" cy="91.854%" r="35.89%" fx="50%" fy="91.854%" gradientTransform="matrix(0 -.9375 1.42368 0 -.808 1.387)">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".6"/>
+            <stop offset="49.413%" stop-color="#FFF" stop-opacity=".347"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="prefix__a" width="110%" height="115.6%" x="-5%" y="-4.7%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+            <feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+        </filter>
+        <filter id="prefix__e" width="116.7%" height="121.9%" x="-8.3%" y="-7.8%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+            <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+        </filter>
+        <path id="prefix__b" d="M252.318 141.582c-.18.075-.32.217-.39.396l-1.46 3.784-1.3.108c-1.122.094-2.021.945-2.152 2.036-.13 1.091.543 2.122 1.612 2.466 2.87.923 5.237 2.939 6.563 5.59.317.635.978 1.038 1.702 1.038h3.916c.587 0 1.087-.418 1.177-.984.09-.567-.256-1.113-.815-1.287l-2.609-.813c-.137-.042-.238-.158-.26-.297l-.961-6.194 1.389-4.966c.092-.33-.076-.678-.397-.818-1.91-.834-4.089-.855-6.015-.059z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 263 -140)">
+        <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+        <use fill="#DB1404" xlink:href="#prefix__b"/>
+        <use fill="url(#prefix__c)" fill-opacity=".4" xlink:href="#prefix__b"/>
+        <use fill="url(#prefix__d)" fill-opacity=".6" xlink:href="#prefix__b"/>
+        <use fill="#000" filter="url(#prefix__e)" xlink:href="#prefix__b"/>
+        <use stroke="#000" stroke-opacity=".33" stroke-width=".5" xlink:href="#prefix__b"/>
+    </g>
+</svg>

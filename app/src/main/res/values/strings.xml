@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Athlete App</string>
+    <string name="title_activity_maps">Map</string>
+    <!--<string name="app_name">Subscriber</string>-->
+
+    <string name="app_main_screen">Sign in</string>
+    <string name="app_main_screen_title">Cognito Identity</string>
+    <string name="app_main_desc">A sample app to showcase Cognito Identity and the SDK for Android.</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Menu">Menu</string>
+    <string name="pick_MFA">MFA Options</string>
+    <string name="title_activity_about_app">AboutApp</string>
+    <string name="about">Copyright 2017 Amazon.com, Inc. or its affiliates. All Rights Reserved.\n\nLicensed under the Amazon Software License (the "License").\nYou may not use this file except in compliance with the License.\nA copy of the License is located at\n\nhttp://aws.amazon.com/asl/
+\n\nor in the "license" file accompanying this app. This app is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="more_info">This is a sample app to showcase Cognito Identity and the SDK for Android.</string>
+    <string name="title_activity_sign_up_confirm">SignUpConfirm</string>
+    <string name="title_activity_mfa">MFAActivity</string>
+    <string name="title_activity_choose_mfa">ChooseMFA</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_verify">VerifyActivity</string>
+    <string name="title_activity_add_attribute">AddAttributeActivity</string>
+    <string name="title_activity_device_settings">DeviceSettings</string>
+    <string name="title_activity_new_password">NewPassword</string>
+    <string name="permission_denied_explanation">You have not granted location permission. So the service cannot be started.</string>
+    <string name="settings">settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_run">Run</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_runs">RUNS</string>
+    <string name="menu_Feats">FEATS</string>
+    <string name="menu_plan">Plan</string>
+    <string name="menu_sensors">Sensors</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="home_third">Home Third</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="profile_name">Full name</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_Mobile">Mobile</string>
+    <string name="profile_Address">Address</string>
+    <string name="profile_Age">Age</string>
+    <string name="profile_Sex">Sex</string>
+    <string name="profile_Description">Description</string>
+    <string name="profile_url">Profile URL</string>
+    <string name="profile_share_photo">Share Photo</string>
+    <string name="profile_share_voice">Share Voice</string>
+    <string name="skip_name">Skip</string>
+    <string name="profile_text">Profile</string>
+    <string name="preview_text">Preview</string>
+    <string name="swip_left">Swipe left</string>
+    <!-- Athleteview Strings -->
+    <string name="privacy_policy_title">Mita Privacy Policy and Terms</string>
+    <string name="skip_text">Skip</string>
+
+    <string name="privacy_policy_content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+    <string name="specialize_text">I Specialize in</string>
+    <string name="welcome_screen_text">No human is limited!</string>
+    <string name="welcome2_screen_text">Become the best You</string>
+    <string name="welcome_screen_sub_text">Bushwick meh Blue Bottle pork belly mustache skateboard 3 wolf moon. Actually beard single-origin coffee, twee 90 PBR Echo Park sartorial.</string>
+    <string name="welcome2_screen_sub_text">… Eliud Kipchoge</string>
+    <string name="coaching_since_text">Coaching since</string>
+    <string name="noof_ath_coached">Number of athletes I coached</string>
+    <string name="fav_distance_text">My Favorite Distance</string>
+    <string name="fav_event_text">My Favorite Event</string>
+    <string name="pramotional_video">Promotional Videos</string>
+    <string name="rupee">\u20B9</string>
+    <string name="plan_text">Plan</string>
+    <string name="change_plan">Change</string>
+    <string name="summary_plan">Summary</string>
+    <string name="payment_gateway_text">Payment gateway</string>
+
+    <string name="launch_activity">Launch activity</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+
+    <string name="ok">OK</string>
+    <string name="request_location_updates">Start Run</string>
+    <string name="remove_location_updates">Stop Run</string>
+
+    <string name="location_updated">Location Updated: %1$s</string>
+    <string name="run_activity">Run Activity : %1$s</string>
+    <string name="service_destroy">Service Destroyed</string>
+</resources>

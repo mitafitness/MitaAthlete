@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/LlAppbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/IvBack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/back_btn" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="Coaches"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.4"
+            android:gravity="end">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LlAppbar"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_logo"
+            android:layout_marginStart="12dp"
+            android:fontFamily="sans-serif"
+            android:text="Sign Up"
+            android:textColor="#4a4a4a"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewRegPhoneLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#40000000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:id="@+id/phoneNumberLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRegPhoneLabel"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_marginEnd="10dp">
+            <EditText
+                android:id="@+id/country_code_edt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91"
+                android:textColor="#000000"
+                android:enabled="false"/>
+        <EditText
+            android:id="@+id/editTextRegPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:maxLength="13"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewRegPhoneMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phoneNumberLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/alert"
+            android:textSize="@dimen/activity_text_padding" />
+
+        <TextView
+            android:id="@+id/textViewRegUserIdLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_below="@+id/textViewRegPhoneMessage"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="04dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#40000000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editTextRegUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewRegUserIdLabel"
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="sans-serif"
+            android:hint="Username"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewRegUserIdMessage"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextRegUserId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="26dp"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/alert"
+            android:textSize="@dimen/activity_text_padding" />
+
+
+        <TextView
+            android:id="@+id/textViewRegEmailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewRegUserIdMessage"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#40000000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editTextRegEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewRegEmailLabel"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="sans-serif"
+            android:hint="Email"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewRegEmailMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextRegEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/alert"
+            android:textSize="@dimen/activity_text_padding" />
+
+
+        <TextView
+            android:id="@+id/textViewRegGivenNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewRegEmailMessage"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#40000000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editTextRegGivenName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewRegGivenNameLabel"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="sans-serif"
+            android:hint="Given name"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewRegGivenNameMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextRegGivenName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/alert"
+            android:textSize="@dimen/activity_text_padding" />
+
+
+
+
+        <TextView
+            android:id="@+id/textViewRegUserPasswordLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewRegGivenNameMessage"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#40000000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_below="@+id/textViewRegUserPasswordLabel"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorPrimary">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:drawablePadding="15dp"
+                android:id="@+id/editTextRegUserPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="sans-serif"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/textViewUserRegPasswordMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextInputPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/alert"
+            android:textSize="@dimen/activity_text_padding" />
+
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewUserRegPasswordMessage"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="sans-serif"
+            android:onClick="logIn"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signUp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif"
+            android:onClick="SignIn"
+            android:text="Already onboard?"
+            android:textColor="#4a4a4a"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewUserSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signUp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@+id/textView8"
+            android:fontFamily="sans-serif"
+            android:onClick="SignIn"
+            android:text="Login"
+            android:textColor="#6b379f"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

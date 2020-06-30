@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Adjust Delay Time"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="50dp">
+
+        <TextView
+            android:id="@+id/qtyDec"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_remove_circle_outline_black_24dp"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:id="@+id/qntyTv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:id="@+id/qtyInc"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/inc_black_24dp"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_serverUri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Server Uri"
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BtnSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="SET Time Delay"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/BtnSetUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="SET Uri"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

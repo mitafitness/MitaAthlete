@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_user_add_attribute"
+        android:title="Add attribute"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/nav_feats"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="@color/colorText"
+        android:title="Feats" />
+
+    <item
+        android:id="@+id/nav_athlete_run"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="@color/colorText"
+        android:icon="@drawable/nav_run"
+        android:title="Runs" />
+
+    <item
+        android:id="@+id/nav_athlete_Plan"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="@color/colorText"
+        android:icon="@drawable/nav_plan"
+        android:title="Plans" />
+
+    <item
+        android:id="@+id/nav_athlete_Sensors"
+        android:icon="@drawable/dashborad_sensor_inactive"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="@color/colorText"
+        android:title="Sensors" />
+
+    <item
+        android:id="@+id/nav_user_verify_attribute"
+        android:icon="@drawable/nav_logout"
+        android:title="Verify Email"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/nav_user_sign_out"
+        android:icon="@drawable/logout"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="@color/colorText"
+        android:title="Logout" />
+
+    <group
+        android:id="@+id/group_user_settings"
+        android:checkableBehavior="single"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_user_settings"
+            android:icon="@drawable/ic_indeterminate_check_box_black_24dp"
+            android:title="Settings" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_user_change_password"
+        android:checkableBehavior="single"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_user_change_password"
+            android:title="Change password" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_user_trusted_devices"
+        android:checkableBehavior="single"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_user_trusted_devices"
+            android:title="Your devices" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_user_about"
+        android:checkableBehavior="single"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_user_about"
+            android:title="About" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_user_end"
+        android:checkableBehavior="single"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_userend"
+            android:title="" />
+
+    </group>
+</menu>

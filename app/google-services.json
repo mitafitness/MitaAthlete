@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202174567819",
+    "firebase_url": "https://mitaathlete.firebaseio.com",
+    "project_id": "mitaathlete",
+    "storage_bucket": "mitaathlete.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202174567819:android:17c65e3fe435e5b3d04b8e",
+        "android_client_info": {
+          "package_name": "com.mita.mqtt.athlete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202174567819-811jv4gelreonsbvic6l6o0id32sa19j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mita.mqtt.athlete",
+            "certificate_hash": "3a6a87f1f856fd8e4353849ebe798b3b9e3403e8"
+          }
+        },
+        {
+          "client_id": "202174567819-80momobge85iic3h4ov489mep8855tl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDalfvCaHPt2zranCGDpLYwqyobJYX5tus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202174567819-80momobge85iic3h4ov489mep8855tl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

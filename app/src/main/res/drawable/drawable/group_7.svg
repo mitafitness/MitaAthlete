@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="298" height="178" viewBox="0 0 298 178">
+    <defs>
+        <linearGradient id="prefix__a" x1="50%" x2="50%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#3D1367"/>
+            <stop offset="100%" stop-color="#6B379F"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#4A4A4A" font-family="Helvetica" font-size="10.192">
+            <tspan x="0" y="10">12</tspan>
+        </text>
+        <text fill="#4A4A4A" font-family="Helvetica" font-size="10.192">
+            <tspan x="5.096" y="86.44">6</tspan>
+        </text>
+        <text fill="#4A4A4A" font-family="Helvetica" font-size="10.192" opacity=".9">
+            <tspan x="5.096" y="47.71">9</tspan>
+        </text>
+        <text fill="#4A4A4A" font-family="Helvetica" font-size="10.192">
+            <tspan x="5.096" y="125.17">3</tspan>
+        </text>
+        <text fill="#4A4A4A" font-family="Helvetica" font-size="10.192">
+            <tspan x="5.096" y="161">0</tspan>
+        </text>
+        <circle cx="22.05" cy="172.892" r="4.724" fill="#D8D8D8"/>
+        <circle cx="33.598" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="78.738" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="123.879" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="169.019" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="214.159" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="259.3" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="45.145" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="90.286" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="135.426" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="180.567" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="225.707" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="270.847" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="55.643" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="100.784" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="145.924" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="191.064" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="236.205" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="281.345" cy="169.743" r="1.575" fill="#D8D8D8"/>
+        <circle cx="67.191" cy="172.892" r="4.724" fill="#D8D8D8"/>
+        <circle cx="112.331" cy="172.892" r="4.724" fill="#D8D8D8"/>
+        <circle cx="157.471" cy="172.892" r="4.724" fill="#D8D8D8"/>
+        <circle cx="202.612" cy="172.892" r="4.724" fill="#D8D8D8"/>
+        <circle cx="247.752" cy="172.892" r="4.724" fill="#D8D8D8"/>
+        <circle cx="293.05" cy="172.892" r="4.724" fill="#D8D8D8"/>
+        <path stroke="#DCDCDC" stroke-width=".5" d="M16 11.5L293 11.5M16 48.5L293 48.5M16 85.5L293 85.5M16 122.5L293 122.5"/>
+        <g stroke="#562685" stroke-linecap="round" stroke-width="2.3">
+            <path d="M0 111c11.713-11.876 25.3-20.738 40.76-26.584 23.192-8.77 48.74-4.444 62.225-10.462 13.485-6.019 39.72-29.885 51.662-40.31s29.404-14.883 55.712-14.883c18.447 0 44.602-7.473 64.641-18.261" transform="translate(17 11)"/>
+        </g>
+        <path stroke="#562685" stroke-width=".5" d="M16 70.5L293 70.5"/>
+        <circle cx="141" cy="70" r="8" fill="url(#prefix__a)"/>
+        <circle cx="141" cy="70" r="4" fill="#FFF"/>
+    </g>
+</svg>
